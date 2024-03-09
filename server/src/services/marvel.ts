@@ -24,9 +24,3 @@ export const marvel = axios.create({
     hash: gerarHashMD5(ts + privateKey + apikey),
   },
 });
-
-// params: {
-//   apikey,
-//   ts,
-//   hash: gerarHashMD5(ts + privateKey + apikey),
-// },
